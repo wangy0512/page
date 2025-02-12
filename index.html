@@ -11,30 +11,34 @@
     <nav>
         <a href="#" class="logo">AsmrProg</a>
         <div class="links">
-            <a href="#">Home</a>
-            <a href="#">Features</a>
-            <a href="#">Blog</a>
-            <a href="#">About Us</a>
+            <a href="#">首頁</a>
+            <a href="#">特色</a>
+            <a href="#">部落格</a>
+            <a href="#">關於我們</a>
         </div>
         <div class="login">
             <button class="signup">Get Started</button>
-            <button>Login</button>
+            <button><a href="login.html">登入</a></button>
         </div>
     </nav>
+    <div class="marquee">
+        <span>歡迎來到NFTs網站！</span>
+    </div>
 
     <header>
         <div class="left">
-            <h1>Let's Buy Some <span>AsmrGraph</span></h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                Eligendi ad fuga illum officiis officia porro adipisci 
-                doloribus 
+            <h1>Let's Buy Some <span>NFTs</span></h1>
+            <p>NFT（非同質化代幣，Non-Fungible Token）是一種基於區塊鏈技術
+                的數位資產，代表獨一無二的物品，無法被複製或互換。NFT 主要應用
+                於數位藝術、音樂、遊戲內物品、收藏品等領域，確保所有權的獨特性
+                和可追溯性。 
             </p>
             <a href="#">
                 <i class='bx bxs-basket'></i>
-                <span>Buy Now</span>
+                <span>立刻購買</span>
             </a>
         </div>
-        <img src="assets/header.jpg">
+        <img src="assets/header.png">
     </header>
 
     <h2 class="separator">
@@ -44,11 +48,11 @@
         <div class="item">
             <div class="header">
                 <i class='bx bx-wallet'></i>
-                <h5>Connect Wallt</h5>
+                <h5>連結錢包</h5>
             </div>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Hic est sunt harum eaque accusantium. Est excepturi harum 
-                quidem distinctio voluptate 
+            <p>充值（存款）：交易所提供一個錢包地址，你只需將資產從其他錢包或交易所轉入此地址。
+                <br>
+                提領（提款）：輸入你的個人錢包地址（如 MetaMask、Trust Wallet），將資金提領出去。 
             </p>
         </div>
         <div class="item">
@@ -74,7 +78,7 @@
     </div>
 
     <h2 class="separator">
-        Super Hot NFTs
+        熱門  NFTs
     </h2>
     <div class="nft-shop">
         <div class="category">
@@ -86,7 +90,7 @@
         </div>
         <div class="nft-list">
             <div class="item">
-                <img src="assets/header.jpg">
+                <img src="assets/logo.jpg">
                 <div class="info">
                     <div>
                         <h5>CryptoArt</h5>
@@ -98,8 +102,8 @@
                     <p>5 of 33</p>
                 </div>
                 <div class="bid">
-                    <p>2h 28m 1s</p>
-                    <a href="#">Place a Bid</a>
+                    <p id="countdown1"></p>
+                    <a href="#">出價</a>
                 </div>
             </div>
             <div class="item">
@@ -115,8 +119,8 @@
                     <p>7 of 12</p>
                 </div>
                 <div class="bid">
-                    <p>1h 28m 1s</p>
-                    <a href="#">Place a Bid</a>
+                    <p id="countdown2"></p>
+                    <a href="#">出價</a>
                 </div>
             </div>
             <div class="item">
@@ -132,8 +136,8 @@
                     <p>9 of 23</p>
                 </div>
                 <div class="bid">
-                    <p>4h 21m 1s</p>
-                    <a href="#">Place a Bid</a>
+                    <p id="countdown3"></p>
+                    <a href="#">出價</a>
                 </div>
             </div>
             <div class="item">
@@ -149,15 +153,15 @@
                     <p>1 of 33</p>
                 </div>
                 <div class="bid">
-                    <p>0h 28m 1s</p>
-                    <a href="#">Place a Bid</a>
+                    <p id="countdown4"></p>
+                    <a href="#">出價</a>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="view-more">
-        <button>View More</button>
+        <button>瀏覽更多</button>
     </div>
     <h2 class="separator">
         Best Sellers
@@ -194,13 +198,13 @@
     </div>
 
     <footer>
-        <h3>Create, Explore & Collect Abstract NFTs</h3>
+        <h3>create, explore & collect abstract NFTs</h3>
         <div class="right">
             <div class="links">
-                <a href="#">Privacy Policy</a>
-                <a href="#">Cooperation</a>
-                <a href="#">Sponsorship</a>
-                <a href="#">Contact Us</a>
+                <a href="#">隱私權政策</a>
+                <a href="#">合作</a>
+                <a href="#">贊助</a>
+                <a href="validator.1.html">聯絡我們</a>
             </div>
             <div class="social">
                 <box-icon type='logo' name='instagram'></box-icon>
@@ -210,5 +214,6 @@
             <p>Copyright @ 2024 AsmrProg, All Rights Reserved</p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
